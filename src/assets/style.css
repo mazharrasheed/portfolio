@@ -1,0 +1,75 @@
+
+
+
+.hero {
+  background-image: url('../assets/images/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.profile-image{
+    border: 0px solid rgb(253 87 120);
+    border-radius: 50% 50% 0% 0%;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-border {
+  background: linear-gradient(to right, rgb(253, 87, 120), rgb(255, 195, 0));
+  padding: 15px;
+  border-radius: 50% 50% 0 0;
+  display: inline-block;
+}
+
+.profile-image {
+  display: block;
+  border-radius: 50% 50% 0 0;
+  width: 70%; /* set size */
+  height: auto;
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.title {
+    cursor: pointer;
+
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.title:hover {
+    cursor: pointer;
+
+    transform: scale(1.6);
+    transition: transform 0.3s ease;
+    font-size: 50px;
+}
+
+
+.about {
+  background: linear-gradient(to top,  rgb(255, 123, 0),rgb(221, 206, 68));
+}
+
+.projects {
+    background: linear-gradient(to top, rgb(163 78 220), rgb(204 93 183));
+}
+
+
+.card{
+    border: 5px solid rgb(253 87 120) !important;
+    border-radius: 20px !important;
+    box-shadow: 10px 10px 11px rgba(0, 0, 0, 0.1)!important;
+    background: linear-gradient(to top,  rgb(243, 185, 131),rgb(228, 220, 147));
+}
+
+.footer{
+   
+    height: 50px;
+}
+
