@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "private": true,
-  "homepage": "https://mazharrasheed.github.io/porfolio",
+  "homepage": "https://mazharrasheed.github.io/portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
