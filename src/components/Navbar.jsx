@@ -29,7 +29,7 @@ export default function Navbar() {
                                     <Link className="nav-link ms-5 " to="/projects"><h4>Projects</h4></Link>
                                 </li>
                             </ul>
-                            <a href={mycv} className='btn btn-danger'>Download CV</a>git 
+                            <a href={mycv} className='btn btn-danger'>Download file</a>git 
                         </div>
                     </div>
                 </nav>
