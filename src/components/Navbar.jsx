@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import mycv from '../assets/files/mycv.pdf';
 
 export default function Navbar() {
     return (
@@ -28,7 +29,7 @@ export default function Navbar() {
                                     <Link className="nav-link ms-5 " to="/projects"><h4>Projects</h4></Link>
                                 </li>
                             </ul>
-                            <a href='#' className='btn btn-danger'>Download CV</a>
+                            <a href={mycv} className='btn btn-danger'>Download CV</a>
                         </div>
                     </div>
                 </nav>
